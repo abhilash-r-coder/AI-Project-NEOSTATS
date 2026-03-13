@@ -1,0 +1,17 @@
+bash
+# 1. Create & activate virtual env
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Get free Gemini API key from https://aistudio.google.com/apikey
+
+# 4. Set your key
+export GEMINI_API_KEY="your-key-here"
+
+# 5. Add documents to /documents folder (optional)
+
+# 6. Run
+streamlit run app.py
