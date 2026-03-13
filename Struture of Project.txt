@@ -1,0 +1,15 @@
+chatbot-project/
+├── config/
+│   └── config.py
+├── models/
+│   ├── llm.py
+│   └── embeddings.py
+├── utils/
+│   ├── rag.py
+│   ├── web_search.py
+│   └── helpers.py
+├── documents/          
+├── app.py
+├── requirements.txt
+└── .streamlit/
+    └── secrets.toml
